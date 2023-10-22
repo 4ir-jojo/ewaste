@@ -11,7 +11,7 @@ project = rf.workspace().project("e-waste-detection-model")
 model = project.version(3).model
 
 # Page configuration
-st.set_page_config(page_title="e vision", page_icon="🚮")
+st.set_page_config(page_title="ImagiVision", page_icon="🚮")
 
 #########################################################
 user_phone = st.text_input("Enter Your Phone Number: ")
@@ -51,7 +51,7 @@ class AIRTIME:
 # Reward User
 tokens = 0
 
-st.title("e-vision")
+st.title("ImagiVision")
 st.markdown("Detect E-WASTE using AI")
 
 uploaded_file = st.file_uploader(label="Upload Image", type=["jpg", "jpeg", "png"], key="1")
